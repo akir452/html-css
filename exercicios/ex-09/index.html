@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ajuste de imagens</title>
+</head>
+<body>
+    <h1>criando um ajuste</h1>
+    <p>para hoje vamos fazer um ajuste simples de imagens.</p>
+
+    <picture><!--tag serve para endicar que tem uma imagem-->
+        <source media="(max-width:700px )" srcset="imagens/minha-imagem,p.png"
+        type="image/png">
+        <source media="(max-width: 1000px)"srcset="imagens/imagem.m.png" type="image/png"><!--endicador de qual imagem deve usar-->
+        <img src="imagens/imagem.g.png" alt="imagem flexivel">
+       
+    </picture>
+    <h2>adicionando audios</h2>
+    <p>vamos adicionar audios</p>
+    <audio src="midia/Lawrence - TrackTribe.mp3" controls autoplay></audio>
+    <!-- mp3 wav ogg-->
+    <!--codigo para adicionarmos audio-->
+</body>
+</html>

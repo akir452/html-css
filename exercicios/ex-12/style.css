@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body{
+background-color: darkgreen;
+color: aliceblue;
+}
+h1{
+background-color: rgb(77, 77, 214);
+color: brown;
+}
+#sorriso{
+    background-color: cadetblue;
+    color: rgb(210, 100, 237);
+}
+h2{
+color: bisque;
+background-color: cyan
+}
+.suborno{
+    color: lightcyan;
+}
